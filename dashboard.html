@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    />
+    <!-- fontswesome -->
+    <script
+      src="https://kit.fontawesome.com/91ca686b61.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/mnd-fav.png"
+      type="image/x-icon"
+    />
+
+    <!-- external css  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!-- Page title  -->
+    <title>MND Tech Solutions - Dashboard</title>
+  </head>
+  <body id="page">
+    <!-- page wrapper -->
+    <div class="wrapper" id="wrapper">
+      <input type="checkbox" name="" id="nav-toogle" />
+      <!-- sidebar -->
+      <div class="sidebar" style="background: url(assets/img/sidebar-bg.jpg)">
+        <!-- logo -->
+        <div class="sidebar-brand">
+          <img src="assets/img/mnd-logo.png" alt="" class="main-logo" />
+          <img src="assets/img/mnd-fav.png" alt="" class="toggle-logo" />
+        </div>
+
+        <!-- sidebar menu -->
+        <div class="sidebar-menu">
+          <div class="item">
+            <a href="dashboard.html" class="active">
+              <span><i class="fas fa-tachometer-alt"></i></span>
+              <span class="title">Dashboard</span>
+            </a>
+          </div>
+          <div class="item">
+            <a href="client-registration.html">
+              <span class="icon"><i class="fas fa-user"></i></span>
+              <span class="title">Client Registration</span>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <span class="icon"><i class="fas fa-globe-asia"></i></span>
+              <span class="title">Visit</span>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <span class="icon"><i class="fas fa-file"></i></span>
+              <span class="title">Feedback Form</span>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <span class="icon"><i class="fas fa-hands-helping"></i></span>
+              <span class="title">Requirement</span>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <span class="icon"><i class="fas fa-money-check-alt"></i></span>
+              <span class="title">Payment</span>
+            </a>
+          </div>
+          <div class="item">
+            <a class="sub-btn">
+              <span class="icon"><i class="fas fa-cog"></i></span>
+              <span class="title">Settings</span>
+              <!-- dropdown menu -->
+              <!-- <div class="sub-menu">
+                  <a href="#" class="sub-item">Site Setting</a>
+                  <a href="#" class="sub-item">Info</a>
+                  <a href="#" class="sub-item">Sign Out</a>
+                </div> -->
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- main-content/ content wrapper -->
+      <div class="main-content">
+        <!-- header  -->
+        <header>
+          <a role="button" class="toggler-btn">
+            <label for="nav-toogle">
+              <span><i class="fas fa-bars"></i></span>
+            </label>
+          </a>
+          <!--  -->
+          <ul class="user-menu nav navbar pull-right ml-auto">
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="messagesDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="fas fa-envelope fa-fw"></i>
+                
+              </a>
+              <div
+                class="
+                  dropdown-list dropdown-menu dropdown-menu-right
+                  shadow
+                  animated--grow-in
+                "
+                aria-labelledby="messagesDropdown"
+              >
+                <h6 class="dropdown-header">Message Center</h6>
+              </div>
+            </li>
+            <!-- Nav- item  alert -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="alertsDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">3+</span>
+              </a>
+              <!-- Dropdown - Alerts -->
+              <div
+                class="
+                  dropdown-list dropdown-menu dropdown-menu-right
+                  shadow
+                  animated--grow-in
+                "
+                aria-labelledby="alertsDropdown"
+              >
+                <h6 class="dropdown-header">Alerts Center</h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-primary">
+                      <i class="fas fa-file-alt text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">March 12, 2021</div>
+                    <span class="font-weight-bold"
+                      >A new monthly report is ready to download!</span
+                    >
+                  </div>
+                </a>
+                <a
+                  class="dropdown-item text-center small text-gray-500"
+                  href="#"
+                  >Show All Alerts</a
+                >
+              </div>
+            </li>
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="messagesDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="fas fa-flag"></i>
+              </a>
+            </li>
+            <!-- divider  -->
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="userDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small"
+                  >MND Tech</span
+                >
+                <img
+                  class="img-profile rounded-circle"
+                  src="assets/img/mnd-fav.png"
+                />
+              </a>
+              <!-- Dropdown - User Information -->
+              <div
+                id="profile"
+                class="
+                  dropdown-menu dropdown-menu-right
+                  shadow
+                  animated--grow-in
+                "
+                aria-labelledby="userDropdown"
+              >
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Site Settings
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Activity Log
+                </a>
+                <div class="dropdown-divider"></div>
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#logoutModal"
+                >
+                  <i
+                    class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"
+                  ></i>
+                  Sign Out
+                </a>
+              </div>
+            </li>
+          </ul>
+        </header>
+
+        <!--  -->
+
+        <!-- Main content - Right side -->
+        <main>
+          <div class="container-fluid">
+            <!-- 1 -->
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="head-txt">
+                  <i class="fas fa-tachometer-alt"></i>
+                  Dashboard
+                </h3>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="row mt-2">
+              <div class="col-md-12">
+                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                  <strong>Welcome to Dashboard!</strong> Here You can Change the Dynamic content of your website.
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="cards">
+                  <div class="card-single">
+                    <div>
+                      <h1>54</h1>
+                      <span>Customers</span>
+                    </div>
+                    <div>
+                      <i class="fas fa-user"></i>
+                    </div>
+                  </div>
+                  <div class="card-single">
+                    <div>
+                      <h1>54</h1>
+                      <span>Customers</span>
+                    </div>
+                    <div>
+                      <i class="fas fa-user"></i>
+                    </div>
+                  </div>
+                  <div class="card-single">
+                    <div>
+                      <h1>54</h1>
+                      <span>Customers</span>
+                    </div>
+                    <div>
+                      <i class="fas fa-user"></i>
+                    </div>
+                  </div>
+                  <div class="card-single">
+                    <div>
+                      <h1>54</h1>
+                      <span>Customers</span>
+                    </div>
+                    <div>
+                      <i class="fas fa-user"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <!-- Footer -->
+        <footer class="sticky-footer bg-white">
+          <div class="container my-auto">
+              <div class="copyright my-auto">
+                  <!-- <span>Copyright &copy; Your Website 2021</span> -->
+                  <strong>
+                    Copyright  © 2021 
+                    <a href="http://mndtechsolutions.com" target="_blank" rel="noopener noreferrer"> MND Tech Solutions </a>
+                  </strong>
+                  All Rights Reserved.
+              </div>
+          </div>
+      </footer>
+      <!-- End of Footer -->
+      </div>
+      
+    </div>
+    <!-- external js -->
+    <script src="assets/js/main.js"></script>
+    <!-- Bootstrap: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

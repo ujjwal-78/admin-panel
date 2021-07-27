@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    />
+    <!-- fontswesome -->
+    <script
+      src="https://kit.fontawesome.com/91ca686b61.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/mnd-fav.png"
+      type="image/x-icon"
+    />
+
+    <!-- external css  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!-- Page title  -->
+    <title>Client Registration | MND Tech Solutions</title>
+  </head>
+  <body id="page">
+    <!-- page wrapper -->
+    <div class="wrapper" id="wrapper">
+      <input type="checkbox" name="" id="nav-toogle" />
+      <!-- sidebar -->
+      <div class="sidebar" style="background: url(assets/img/sidebar-bg.jpg)">
+        <!-- logo -->
+        <div class="sidebar-brand">
+          <img src="assets/img/mnd-logo.png" alt="" class="main-logo" />
+          <img src="assets/img/mnd-fav.png" alt="" class="toggle-logo" />
+        </div>
+
+        <!-- sidebar menu -->
+        <div class="sidebar-menu">
+          <div class="item">
+            <a href="dashboard.html">
+              <span><i class="fas fa-tachometer-alt"></i></span>
+              <span class="title">Dashboard</span>
+            </a>
+          </div>
+          <div class="item">
+            <a href="client-registration.html" class="active">
+              <span class="icon"><i class="fas fa-user"></i></span>
+              <span class="title">Client Registration</span>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <span class="icon"><i class="fas fa-globe-asia"></i></span>
+              <span class="title">Visit</span>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <span class="icon"><i class="fas fa-file"></i></span>
+              <span class="title">Feedback Form</span>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <span class="icon"><i class="fas fa-hands-helping"></i></span>
+              <span class="title">Requirement</span>
+            </a>
+          </div>
+          <div class="item">
+            <a href="">
+              <span class="icon"><i class="fas fa-money-check-alt"></i></span>
+              <span class="title">Payment</span>
+            </a>
+          </div>
+          <div class="item">
+            <a class="sub-btn">
+              <span class="icon"><i class="fas fa-cog"></i></span>
+              <span class="title">Settings</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- content wrapper -->
+      <div class="main-content">
+        <!-- header  -->
+        <header>
+          <a role="button" class="toggler-btn">
+            <label for="nav-toogle">
+              <span><i class="fas fa-bars"></i></span>
+            </label>
+          </a>
+          <!--  -->
+          <ul class="user-menu nav navbar pull-right ml-auto">
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="messagesDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="fas fa-envelope fa-fw"></i>
+              </a>
+              <div
+                class="
+                  dropdown-list dropdown-menu dropdown-menu-right
+                  shadow
+                  animated--grow-in
+                "
+                aria-labelledby="messagesDropdown"
+              >
+                <h6 class="dropdown-header">Message Center</h6>
+              </div>
+            </li>
+            <!-- Nav- item  alert -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="alertsDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">3+</span>
+              </a>
+              <!-- Dropdown - Alerts -->
+              <div
+                class="
+                  dropdown-list dropdown-menu dropdown-menu-right
+                  shadow
+                  animated--grow-in
+                "
+                aria-labelledby="alertsDropdown"
+              >
+                <h6 class="dropdown-header">Alerts Center</h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-primary">
+                      <i class="fas fa-file-alt text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">March 12, 2021</div>
+                    <span class="font-weight-bold"
+                      >A new monthly report is ready to download!</span
+                    >
+                  </div>
+                </a>
+                <a
+                  class="dropdown-item text-center small text-gray-500"
+                  href="#"
+                  >Show All Alerts</a
+                >
+              </div>
+            </li>
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="messagesDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="fas fa-flag"></i>
+              </a>
+            </li>
+            <!-- divider  -->
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="userDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small"
+                  >MND Tech</span
+                >
+                <img
+                  class="img-profile rounded-circle"
+                  src="assets/img/mnd-fav.png"
+                />
+              </a>
+              <!-- Dropdown - User Information -->
+              <div
+                id="profile"
+                class="
+                  dropdown-menu dropdown-menu-right
+                  shadow
+                  animated--grow-in
+                "
+                aria-labelledby="userDropdown"
+              >
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Site Settings
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Activity Log
+                </a>
+                <div class="dropdown-divider"></div>
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#logoutModal"
+                >
+                  <i
+                    class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"
+                  ></i>
+                  Sign Out
+                </a>
+              </div>
+            </li>
+          </ul>
+        </header>
+
+        <!--  -->
+
+        <!-- Main content - Right side -->
+        <main>
+          <div class="container-fluid">
+            <!-- 1 -->
+            <div class="row">
+              <!-- breadcrumb -->
+              <div class="col-md-12">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <a href="dashboard.html"
+                        ><i class="fas fa-tachometer-alt"></i> Dashboard</a
+                      >
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                      Client Registration
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+              <!-- panel -->
+              <div class="col-md-12">
+                <div class="panel default-panel custom-panel">
+                  <!--  -->
+                  <div class="panel-heading">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h5>Add New Clients</h5>
+                      </div>
+                      <div class="col-md-6">
+                        <a href="#" class="btn btn-primary">
+                          <i class="fas fa-list"></i>
+                          <span>Clients List</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- panel body -->
+                  <div class="panel-body">
+                    <div class="col-md-12">
+                      <form action="" method="post">
+                        <!-- row 1 -->
+                        <div class="form-group row">
+                          <!--  -->
+                          <label for="" class="col-md-2 control-label">
+                            <h6>Company Name</h6>
+                          </label>
+                          <div class="col-md-4">
+                            <div class="input-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="company"
+                                name="company"
+                                placeholder="Enter Your Company Name *"
+                                required
+                              />
+
+                              <div class="input-group-append">
+                                <button
+                                  class="btn btn-outline-secondary"
+                                  type="button"
+                                  id="button-addon"
+                                >
+                                  <i class="far fa-plus-square"></i>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <!--  -->
+                          <label for="" class="col-md-2 control-label">
+                            <h6>Contact Person Name *</h6>
+                          </label>
+                          <div class="col-md-4">
+                            <div class="input-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="name"
+                                name="name"
+                                placeholder="Enter Your Name *"
+                                required
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <!-- row 3 -->
+                        <div class="form-group row">
+                          <!--  -->
+                          <label for="" class="col-md-2 control-label">
+                            <h6>PAN No.</h6>
+                          </label>
+                          <div class="col-md-4">
+                            <div class="input-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="ori_country"
+                                placeholder="Enter your PAN No."
+                              />
+                            </div>
+                          </div>
+                          <!--  -->
+                          <label for="" class="col-md-2 control-label">
+                            <h6>GSTIN</h6>
+                          </label>
+                          <div class="col-md-4">
+                            <div class="input-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="des_country"
+                                placeholder="Enter your GST No."
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <!-- row 4 -->
+                        <div class="form-group row">
+                          <!--  -->
+                          <label for="" class="col-md-2 control-label">
+                            <h6>Email *</h6>
+                          </label>
+                          <div class="col-md-4">
+                            <div class="input-group">
+                              <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                name="email"
+                                placeholder="your-email@mail.com *"
+                                required
+                              />
+                            </div>
+                          </div>
+                          <!--  -->
+                          <label for="" class="col-md-2 control-label">
+                            <h6>Contact No. *</h6>
+                          </label>
+                          <div class="col-md-4">
+                            <div class="input-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="phone"
+                                name="phone"
+                                placeholder="Enter your contact no. *"
+                                required
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <!-- row 5 -->
+                        <div class="form-group row">
+                          <!--  -->
+                          <label for="" class="col-md-2 control-label">
+                            <h6>Website URL</h6>
+                          </label>
+                          <div class="col-md-4">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="website"
+                              name="website"
+                              placeholder="Enter your website URL (if available)"
+                            />
+                          </div>
+                          <!--  -->
+                          <label for="" class="col-md-2 control-label">
+                            <h6>Client Address *</h6>
+                          </label>
+                          <div class="col-md-4">
+                            <textarea
+                              class="form-control"
+                              id="address"
+                              name="address"
+                              rows="2"
+                              placeholder="Enter your address *"
+                              required
+                            ></textarea>
+                          </div>
+                        </div>
+                        <!-- row 6 -->
+                        <div class="form-group row">
+                          <!--  -->
+                          <label for="" class="col-md-2 control-label">
+                            <h6>Client City *</h6>
+                          </label>
+                          <div class="col-md-4">
+                            <div class="input-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="city"
+                                name="city"
+                                placeholder="Enter your city *"
+                                required
+                              />
+                            </div>
+                          </div>
+                          <!--  -->
+                          <label for="" class="col-md-2 control-label">
+                            <h6>Client State *</h6>
+                          </label>
+                          <div class="col-md-4">
+                            <div class="input-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="state"
+                                name="state"
+                                placeholder="Enter your state *"
+                                required
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <!-- row 7 -->
+                        <div class="form-group row">
+                          <!--  -->
+                          <label for="" class="col-md-2 control-label">
+                            <h6>Client Country *</h6>
+                          </label>
+                          <div class="col-md-4">
+                            <div class="input-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="country"
+                                name="country"
+                                placeholder="Enter your country *"
+                                required
+                              />
+                            </div>
+                          </div>
+                          <!--  -->
+                          <label for="" class="col-md-2 control-label">
+                            <h6>PIN / ZIP Code</h6>
+                          </label>
+                          <div class="col-md-4">
+                            <div class="input-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="pin"
+                                name="pin"
+                                placeholder="Enter your pin/zip code *"
+                                required
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          type="submit"
+                          class="btn btn-primary text-center"
+                        >
+                          Submit
+                        </button>
+                        <button
+                          type="reset"
+                          class="btn btn-primary text-center"
+                        >
+                          Reset
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <!-- Footer -->
+        <footer class="sticky-footer bg-white">
+          <div class="container my-auto">
+            <div class="copyright my-auto">
+              <!-- <span>Copyright &copy; Your Website 2021</span> -->
+              <strong>
+                Copyright © 2021
+                <a
+                  href="http://mndtechsolutions.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  MND Tech Solutions
+                </a>
+              </strong>
+              All Rights Reserved.
+            </div>
+          </div>
+        </footer>
+        <!-- End of Footer -->
+      </div>
+
+      <!-- Company Name POP-UP form -->
+    <div class="model-container">
+        <form>
+          <h3>Add Company Name</h3>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="company"
+              placeholder="Company Name *"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              id="exporter_add"
+              rows="3"
+              placeholder="Company Address *"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              id="exp_email"
+              placeholder="Company Email *"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="exp_no"
+              placeholder="Company Contact No. *"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="exp_gst"
+              placeholder="GST No."
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">Save Changes</button>
+          <button type="reset" class="btn btn-primary">Reset</button>
+          <i id="close" class="fas fa-times"></i>
+        </form>
+      </div>
+    </div>
+    
+    <!-- Bootstrap: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- external js -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/pop-up.js"></script>
+  </body>
+</html>
