@@ -350,13 +350,20 @@ main .panel-body #button-addon2 {
 }
 main .panel-body h6 {
     font-size: 14px;
-    padding-top: 7px;
+    padding-top: 11px;
     font-weight: 600;
 }
 main .panel-body input,
 main .panel-body textarea {
-    font-size: 13px;
-    padding: 1.2rem 1rem;
+    font-size: 13px !important;
+    padding: 0.6rem 1rem !important;
+}
+main .panel-body select {
+  font-size: 13px !important;
+  padding: 0rem 1rem !important;
+}
+main .panel-body .input-group-append {
+  height: 34px  ;
 }
 
 .wrapper .container {
@@ -378,8 +385,10 @@ main .panel-body textarea {
 #wrapper {
   display: flex;
 }
-
-
+/* footer */
+footer .copyright {
+  
+}
 /************************ login / register form ************************/
 .login-bg {
   background: url("../img/login-bg.jpg") no-repeat center fixed;

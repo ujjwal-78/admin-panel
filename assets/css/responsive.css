@@ -68,6 +68,15 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1128px) {
+    
+  /* form */
+  main .panel-body h6 {
+    padding-top: 1px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
@@ -143,6 +152,22 @@
     /* margin-left: 14rem; */
   }
 }
+
+@media only screen and (max-width: 767px) {
+  /* forms */
+  main .panel-body label.col-md-2.control-label {
+    padding-left: 1rem;
+    margin-bottom: 0.2rem;
+  }
+
+  main .panel-body .form-group {
+    margin-bottom: 0rem;
+  }
+  main .panel-body .input-group {
+    margin-bottom: 2rem;
+  }
+}
+
 @media only screen and (max-width: 560px) {
   .cards {
     grid-template-columns: 100%;

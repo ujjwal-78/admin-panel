@@ -31,13 +31,13 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
     <!-- Page title  -->
-    <title>Client Registration | MND Tech Solutions</title>
+    <title>Requirements | MND Tech Solutions</title>
   </head>
   <body id="page">
-    <!-- page wrapper -->
+    <!-------------------------------------------------------- page wrapper starts -------------------------------------------------------->
     <div class="wrapper" id="wrapper">
       <input type="checkbox" name="" id="nav-toogle" />
-      <!-- sidebar -->
+      <!---------------------------------------- sidebar starts ---------------------------------------->
       <div class="sidebar" style="background: url(assets/img/sidebar-bg.jpg)">
         <!-- logo -->
         <div class="sidebar-brand">
@@ -45,7 +45,7 @@
           <img src="assets/img/mnd-fav.png" alt="" class="toggle-logo" />
         </div>
 
-        <!-- sidebar menu -->
+        <!-- sidebar menu starts -->
         <div class="sidebar-menu">
           <div class="item">
             <a href="dashboard.html">
@@ -54,7 +54,7 @@
             </a>
           </div>
           <div class="item">
-            <a href="client-registration.html" class="active">
+            <a href="client-registration.html">
               <span class="icon"><i class="fas fa-user"></i></span>
               <span class="title">Client Registration</span>
             </a>
@@ -72,7 +72,7 @@
             </a>
           </div>
           <div class="item">
-            <a href="requirement.html">
+            <a href="requirement.html" class="active">
               <span class="icon"><i class="fas fa-hands-helping"></i></span>
               <span class="title">Requirement</span>
             </a>
@@ -90,18 +90,20 @@
             </a>
           </div>
         </div>
+        <!-- sidebar menu ends -->
       </div>
+      <!---------------------------------------- sidebar ends ---------------------------------------->
 
-      <!-- content wrapper -->
+
+      <!-- content wrapper /right side contents starts -->
       <div class="main-content">
-        <!-- header  -->
+        <!-- header / topbar starts -->
         <header>
           <a role="button" class="toggler-btn">
             <label for="nav-toogle">
               <span><i class="fas fa-bars"></i></span>
             </label>
           </a>
-          <!--  -->
           <ul class="user-menu nav navbar pull-right ml-auto">
             <!-- Nav Item - Messages -->
             <li class="nav-item dropdown no-arrow mx-1">
@@ -246,10 +248,9 @@
             </li>
           </ul>
         </header>
+        <!-- header / topbar ends -->
 
-        <!--  -->
-
-        <!-- Main content - Right side -->
+        <!-- Main content - Right side starts -->
         <main>
           <div class="container-fluid">
             <!-- 1 -->
@@ -264,7 +265,7 @@
                       >
                     </li>
                     <li class="breadcrumb-item active" aria-current="page">
-                      Client Registration
+                      Requirements
                     </li>
                   </ol>
                 </nav>
@@ -276,14 +277,14 @@
                   <div class="panel-heading">
                     <div class="row">
                       <div class="col-md-6">
-                        <h5>Add New Clients</h5>
+                        <h5>Requirements</h5>
                       </div>
-                      <div class="col-md-6">
+                      <!-- <div class="col-md-6">
                         <a href="#" class="btn btn-primary">
                           <i class="fas fa-list"></i>
                           <span>Clients List</span>
                         </a>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                   <!-- panel body -->
@@ -320,184 +321,50 @@
                           </div>
                           <!--  -->
                           <label for="" class="col-md-2 control-label">
-                            <h6 style="padding-top: 1px;">Contact Person Name *</h6>
+                            <h6>Requirements</h6>
                           </label>
                           <div class="col-md-4">
                             <div class="input-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="name"
-                                name="name"
-                                placeholder="Enter Your Name *"
-                                required
-                              />
+                                <textarea
+                                    class="form-control"
+                                    id="requirements"
+                                    name="requirements"
+                                    rows="2"
+                                    placeholder="Your requirements in details"
+                                ></textarea>
                             </div>
                           </div>
                         </div>
-                        <!-- row 3 -->
+                        <!-- row 2 -->
                         <div class="form-group row">
                           <!--  -->
                           <label for="" class="col-md-2 control-label">
-                            <h6>PAN No.</h6>
+                            <h6>Follow Up</h6>
                           </label>
                           <div class="col-md-4">
                             <div class="input-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="ori_country"
-                                placeholder="Enter your PAN No."
-                              />
+                                <textarea
+                                    class="form-control"
+                                    id="follow-up"
+                                    name="follow-up"
+                                    rows="2"
+                                    placeholder=""
+                                ></textarea>
                             </div>
                           </div>
                           <!--  -->
                           <label for="" class="col-md-2 control-label">
-                            <h6>GSTIN</h6>
+                            <h6>Remarks</h6>
                           </label>
                           <div class="col-md-4">
                             <div class="input-group">
-                              <input
-                                type="text"
+                              <textarea
                                 class="form-control"
-                                id="des_country"
-                                placeholder="Enter your GST No."
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <!-- row 4 -->
-                        <div class="form-group row">
-                          <!--  -->
-                          <label for="" class="col-md-2 control-label">
-                            <h6>Email *</h6>
-                          </label>
-                          <div class="col-md-4">
-                            <div class="input-group">
-                              <input
-                                type="email"
-                                class="form-control"
-                                id="email"
-                                name="email"
-                                placeholder="your-email@mail.com *"
-                                required
-                              />
-                            </div>
-                          </div>
-                          <!--  -->
-                          <label for="" class="col-md-2 control-label">
-                            <h6>Contact No. *</h6>
-                          </label>
-                          <div class="col-md-4">
-                            <div class="input-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="phone"
-                                name="phone"
-                                placeholder="Enter your contact no. *"
-                                required
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <!-- row 5 -->
-                        <div class="form-group row">
-                          <!--  -->
-                          <label for="" class="col-md-2 control-label">
-                            <h6>Website URL</h6>
-                          </label>
-                          <div class="col-md-4">
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="website"
-                              name="website"
-                              placeholder="Enter your website URL (if available)"
-                            />
-                          </div>
-                          <!--  -->
-                          <label for="" class="col-md-2 control-label">
-                            <h6>Client Address *</h6>
-                          </label>
-                          <div class="col-md-4">
-                            <textarea
-                              class="form-control"
-                              id="address"
-                              name="address"
-                              rows="2"
-                              placeholder="Enter your address *"
-                              required
-                            ></textarea>
-                          </div>
-                        </div>
-                        <!-- row 6 -->
-                        <div class="form-group row">
-                          <!--  -->
-                          <label for="" class="col-md-2 control-label">
-                            <h6>Client City *</h6>
-                          </label>
-                          <div class="col-md-4">
-                            <div class="input-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="city"
-                                name="city"
-                                placeholder="Enter your city *"
-                                required
-                              />
-                            </div>
-                          </div>
-                          <!--  -->
-                          <label for="" class="col-md-2 control-label">
-                            <h6>Client State *</h6>
-                          </label>
-                          <div class="col-md-4">
-                            <div class="input-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="state"
-                                name="state"
-                                placeholder="Enter your state *"
-                                required
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <!-- row 7 -->
-                        <div class="form-group row">
-                          <!--  -->
-                          <label for="" class="col-md-2 control-label">
-                            <h6>Client Country *</h6>
-                          </label>
-                          <div class="col-md-4">
-                            <div class="input-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="country"
-                                name="country"
-                                placeholder="Enter your country *"
-                                required
-                              />
-                            </div>
-                          </div>
-                          <!--  -->
-                          <label for="" class="col-md-2 control-label">
-                            <h6>PIN / ZIP Code</h6>
-                          </label>
-                          <div class="col-md-4">
-                            <div class="input-group">
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="pin"
-                                name="pin"
-                                placeholder="Enter your pin/zip code *"
-                                required
-                              />
+                                id="remarks"
+                                name="remarks"
+                                rows="2"
+                                placeholder="(optional)"
+                              ></textarea>
                             </div>
                           </div>
                         </div>
@@ -521,11 +388,12 @@
             </div>
           </div>
         </main>
-        <!-- Footer -->
+        <!-- Main content - Right side starts -->
+
+        <!-- Footer starts -->
         <footer class="sticky-footer bg-white">
           <div class="container my-auto">
             <div class="copyright my-auto">
-              <!-- <span>Copyright &copy; Your Website 2021</span> -->
               <strong>
                 Copyright © 2021
                 <a
@@ -542,6 +410,7 @@
         </footer>
         <!-- End of Footer -->
       </div>
+      <!-- content wrapper /right side contents starts -->
 
       <!-- Company Name POP-UP form -->
     <div class="model-container">
@@ -597,6 +466,8 @@
         </form>
       </div>
     </div>
+    <!-------------------------------------------------------- page wrapper ends -------------------------------------------------------->
+
     
     <!-- Bootstrap: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
